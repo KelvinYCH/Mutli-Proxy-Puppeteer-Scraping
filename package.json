@@ -1,0 +1,21 @@
+{
+  "name": "concert-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "urbtix": "node index-urbtix.js",
+    "cityline": "node index-cityline.js",
+    "hktix": "node index-hktix.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^16.2.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-anonymize-ua": "^2.4.4",
+    "puppeteer-extra-plugin-minmax": "^1.1.2",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  }
+}
